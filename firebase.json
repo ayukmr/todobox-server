@@ -1,0 +1,12 @@
+{
+  "type":                        "service_account",
+  "project_id":                  "todobox-firebase",
+  "private_key_id":              "dc45f10fce8fc1607dc05f28669a854ee5eb2a95",
+  "private_key":                 "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDkbpx/rK+AjnuJ\nGfM9QEV1v7hXaeoptAoZLfCF2myGMinRZ7vQy0pikPH8hAnizDm/ad7HdHUyKXH+\n2ps38BAo+f0ilHox/NBqs0D4/42lrHK+VlIQsi07G5JmsTtffnn1M/uOMXtrkDs7\nsdI197cq+dOjiCBgB0hkPPjo+aEtkGkU9QCLtSg2sJEXOX/q8tnB+q7VoD1fqFzU\njCgo9xREpu0Qg6fCg0Uep0FbAs2MyWHrn+nqYJ86RKwZQq11T8CHosBW+92PJED2\nyP9hd/wr9EWzcvYFUzCxfDPM00K2plWskA2CilT71V1VY+2a0HEukX0ArfQpxaSX\n+x3WxDPvAgMBAAECggEAA0EjxkCwRwOz23bjSF7Q8bkEbmzKLJCHYxo/wE0/P5HM\nyh8RH3JOAhjjjn/veuvPvmjkbVejT2gkwVQQlkIiBAHWKx1BBZ/lWw41VKoINOSM\nklnWruAC+46y55CkPzUlL3eioI3juFtKyyWg6fdSBKQ58WBmnOE6e4C2erpxVlDr\nmL4ffpl9idccV1GuDDwB56SkwdlXBD52UM/ePK7bD5n1r/RlexLH6MSvM/2Nd3Gs\ncUWdzCa2uayQGCgi5adtAYP3TO0pslUrPfa9ey+LKKxGskwnclFgJw8P4YBDg7a+\n6N4quIKfOI/EhGMmyXry2d+N038EL/z8RGP4uHkGXQKBgQDynH6sgu6TOMttlFNb\nBVXdJ0i1WmfH0u3sm2sghM7AXL33NYj9PoaODo2zPpML54GjC8Qyj2XufZjxbVa3\nAJEwugoJqAKdI4paZb4HLTD3FXMZWU8Kp25X87geQchZojA0SntqtNOUTDgjcSR0\nVeEvvQxhorBv37tqGk4v9vwb+wKBgQDxCcxv94GytErPHHXZk4lfS2PAX0FTFweM\nXGSL5AP8s55cEKPoDKXjPzSRyr5gAwK9G3LL9H0KgZa1WN1jm+QGgsfzOVx/bXmc\nAjN0CxbOobH1ON5gM6MUVo+0jJDXl/DRkPGub1uGbXxNngogLhz63TAxsutC0HMP\nGFsqkKQxnQKBgQDoCtn1cb1xvg6DniwjkHTRcvNN0UwViR7bAMNzdNKylYFz4hZF\n8PmNAUpyN9U4u5H4OhbLLPAXLLWNpEAeBELZ0fYryi/Fz+pSD6GzB3wftrpBcnPx\nAra9FHPzLIPNhxyHxv1Hz+/VlRjUfTCavFEG8c/Xylzqg5ijIMnLgnUa5QKBgQDH\nqXU2PlCqRhw9yXZ5n3PIgzuC66TB/i6bfyEum9cNqYABBSuwmWGEhyO1rLrb70KC\ngU0rUz+Mx2GeoJjq3QQavJSCjj5ns7hrmYsjkdf3nAs8dToHeF6bB0UMqu+EFvE9\ntxHri4TGKsUvyjzbATeyOiykzm+ArgjRNTy3Wo8YJQKBgQDMNqJcr1+FzUtTj0tr\naIh28hDSQQSexeWzCn6ChCNpyxDlv5DNnPphwGwFyGeQ4m/phFWQQHw96Ubv5dS0\nh+PtU/qmhQ3ZJJrA6+MfBOIe8WnNNuwOCrY1u+nxhCE9Z3YUzzKLdQVZGjCq0rHc\n2SKPYrjHz/Z+c8L7XUnuawUoGQ==\n-----END PRIVATE KEY-----\n",
+  "client_email":                "firebase-adminsdk-5nfg4@todobox-firebase.iam.gserviceaccount.com",
+  "client_id":                   "117950393923172602008",
+  "auth_uri":                    "https://accounts.google.com/o/oauth2/auth",
+  "token_uri":                   "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url":        "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-5nfg4%40todobox-firebase.iam.gserviceaccount.com"
+}
