@@ -27,15 +27,16 @@ def base64encode(data):
 
     return data
 
-def authenticate(f):
-    @wraps(f)
+def authenticate(func):
+    @wraps(func)
     def decorated(*args, **kwargs):
-        decoded = auth.verify_id_token(request.headers['Authorization'])
+        if 'Authorization' in request.headers:
+            decoded = auth.verify_id_token(request.headers['Authorization'])
 
-        if decoded:
-            return f(uid=decoded['uid'], *args, **kwargs)
+            if decoded:
+                return func(uid = decoded['uid'], *args, **kwargs)
 
-        return 401
+        return abort(401)
 
     return decorated
 
