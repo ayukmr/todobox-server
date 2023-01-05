@@ -83,7 +83,7 @@ def make_task(data):
             } for subtask in data.get('subtasks', [])]
         }
 
-@app.route('/api/tasks', methods=['GET'])
+@app.route('/tasks', methods=['GET'])
 @authenticate
 def get_tasks(uid):
     tasks = get_firestore_decoded_tasks(uid)
@@ -93,7 +93,7 @@ def get_tasks(uid):
 
     return response
 
-@app.route('/api/task', methods=['POST'])
+@app.route('/task', methods=['POST'])
 @authenticate
 def create_task(uid):
     tasks = get_firestore_tasks(uid)
@@ -110,7 +110,7 @@ def create_task(uid):
     else:
         return abort(400)
 
-@app.route('/api/task/<string:task_id>', methods=['PUT'])
+@app.route('/task/<string:task_id>', methods=['PUT'])
 @authenticate
 def update_task(uid, task_id):
     tasks = get_firestore_tasks(uid)
@@ -130,7 +130,7 @@ def update_task(uid, task_id):
     else:
         return abort(400)
 
-@app.route('/api/task/<string:task_id>', methods=['DELETE'])
+@app.route('/task/<string:task_id>', methods=['DELETE'])
 @authenticate
 def delete_task(uid, task_id):
     tasks = get_firestore_tasks(uid)
@@ -177,7 +177,7 @@ def make_section(data):
             'color': data.get('color')
         }
 
-@app.route('/api/sections', methods=['GET'])
+@app.route('/sections', methods=['GET'])
 @authenticate
 def get_sections(uid):
     sections = get_firestore_decoded_sections(uid)
@@ -187,7 +187,7 @@ def get_sections(uid):
 
     return response
 
-@app.route('/api/section', methods=['POST'])
+@app.route('/section', methods=['POST'])
 @authenticate
 def create_section(uid):
     sections = get_firestore_sections(uid)
@@ -204,7 +204,7 @@ def create_section(uid):
     else:
         return abort(400)
 
-@app.route('/api/section/<string:section_id>', methods=['PUT'])
+@app.route('/section/<string:section_id>', methods=['PUT'])
 @authenticate
 def update_section(uid, section_id):
     sections = get_firestore_sections(uid)
@@ -224,7 +224,7 @@ def update_section(uid, section_id):
     else:
         return abort(400)
 
-@app.route('/api/section/<string:section_id>', methods=['DELETE'])
+@app.route('/section/<string:section_id>', methods=['DELETE'])
 @authenticate
 def delete_section(uid, section_id):
     tasks = get_firestore_tasks(uid)
@@ -243,6 +243,3 @@ def delete_section(uid, section_id):
 
     else:
         return abort(400)
-
-if __name__ == '__main__':
-    app.run(debug=True)
